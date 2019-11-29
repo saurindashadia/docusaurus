@@ -8,6 +8,8 @@
 import React from 'react';
 import Toggle from 'react-toggle';
 
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
 import classnames from 'classnames';
 import styles from './styles.module.css';
 
@@ -15,7 +17,8 @@ const Moon = () => <span className={classnames(styles.toggle, styles.moon)} />;
 const Sun = () => <span className={classnames(styles.toggle, styles.sun)} />;
 
 export default function(props) {
-  return (
+  const {isClient} = useDocusaurusContext();
+  return isClient ? (
     <Toggle
       icons={{
         checked: <Moon />,
@@ -23,5 +26,5 @@ export default function(props) {
       }}
       {...props}
     />
-  );
+  ) : null;
 }
