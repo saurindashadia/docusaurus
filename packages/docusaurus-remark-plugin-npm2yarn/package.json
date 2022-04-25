@@ -19,7 +19,7 @@
   "dependencies": {
     "npm-to-yarn": "^1.0.1",
     "tslib": "^2.4.0",
-    "unist-util-visit": "^2.0.3"
+    "unist-util-visit": "^4.1.0"
   },
   "devDependencies": {
     "@types/mdast": "^3.0.10",
