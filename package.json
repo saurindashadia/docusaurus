@@ -61,7 +61,7 @@
   },
   "dependencies": {
     "babel-plugin-dynamic-import-node": "2.3.0",
-    "unified": "^9.2.2"
+    "unified": "^10.1.2"
   },
   "devDependencies": {
     "@crowdin/cli": "^3.7.8",
