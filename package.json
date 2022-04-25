@@ -60,7 +60,7 @@
     "lock:update": "npx yarn-deduplicate"
   },
   "dependencies": {
-    "babel-plugin-dynamic-import-node": "2.3.0",
+    "babel-plugin-dynamic-import-node": "2.3.3",
     "unified": "^9.2.2"
   },
   "devDependencies": {
