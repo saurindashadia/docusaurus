@@ -97,7 +97,7 @@
     "image-size": "^1.0.1",
     "jest": "^27.5.1",
     "jest-serializer-react-helmet-async": "^1.0.21",
-    "lerna": "^4.0.0",
+    "lerna": "^5.1.6",
     "lerna-changelog": "^2.2.0",
     "lint-staged": "^12.4.0",
     "nodemon": "^2.0.15",
