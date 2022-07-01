@@ -3581,9 +3581,9 @@
   integrity sha512-lyYh44YgrejEK9/5rhASghvRUOxrSJyyyQmqK7L6F/V5qs6PY1RfCi1VbjSkY6kuDt7lzQyhd006slhda4Oypg==
 
 "@types/rtlcss@^3.1.4":
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/@types/rtlcss/-/rtlcss-3.1.4.tgz#8b67938356507f68f1b529396a70f586f6eff2a7"
-  integrity sha512-R+iDmWdCzCp/6T2vOC3GpCbhPArvShXlStAxcw0UcocS/7GTREHcFyH6+xFlXAXMSgp6F+Ab9Q26Fjdu+2a4ww==
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@types/rtlcss/-/rtlcss-3.5.0.tgz#9e51e49fdee6124bb759791be962f9abc6664715"
+  integrity sha512-ywnxs9c/bRgEYhSs1IEs9oEznP9aAFHV6689JKFDpeeJBFpUY8m1LqFL+RHmCfl7zU8F7S7+Af65UdFMiO06oQ==
   dependencies:
     postcss "^8.2.x"
 
