@@ -6868,9 +6868,9 @@ eslint-plugin-react@^7.29.4:
     string.prototype.matchall "^4.0.6"
 
 eslint-plugin-regexp@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-regexp/-/eslint-plugin-regexp-1.7.0.tgz#19b3c98f4f4d5314242ecc8936346b1936de523e"
-  integrity sha512-nmhXqrEP+O+dz2z5MSkc41u/4fA8oakweoCUdfYwox7DBhzadEqZz8T+s6/UiY0NIU0kv+3UrzBfhPp4wUxbaA==
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-regexp/-/eslint-plugin-regexp-1.9.0.tgz#692476a4f620e16634f747bf5c4bfbcd480ff6d9"
+  integrity sha512-Che49IZ07w9KcKvrMiqfwBYv44VBunA4NqUo+UTLluYbCos9Du3+pnhkPTLTAx6ZoZ1Rmz7u7o2iC6g6qCuvxw==
   dependencies:
     comment-parser "^1.1.2"
     eslint-utils "^3.0.0"
