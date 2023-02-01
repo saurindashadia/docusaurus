@@ -1257,12 +1257,15 @@
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
 "@crowdin/cli@^3.7.8":
-  version "3.7.8"
-  resolved "https://registry.yarnpkg.com/@crowdin/cli/-/cli-3.7.8.tgz#a32bb78836b20cefd91c83b193c3d003c906b2d6"
-  integrity sha512-DDA2ggfnYsfoprWmxNpZ5QOxO58RSsbFHHSi+558bqBJMag1z0RjSGSCriqfCQtvBnn2SIVnBsBOaw+HDWXF4w==
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/@crowdin/cli/-/cli-3.10.0.tgz#14f9071860f2fa1ebc918624fbe57bf9677e8f8f"
+  integrity sha512-ez2nZ84jLe/WppZ5ggfZtC9rDUyCbsYengsmKVKeUYfx30lccuyAeQltAdxcwU4v3f58hTNAty0VvCx9zLPl0Q==
   dependencies:
-    njre "^0.2.0"
+    command-exists-promise "^2.0.2"
+    node-fetch "2.6.7"
     shelljs "^0.8.4"
+    tar "^4.4.8"
+    yauzl "^2.10.0"
 
 "@crowdin/crowdin-api-client@^1.17.0":
   version "1.17.0"
@@ -10778,16 +10781,6 @@ netlify-plugin-cache@^1.0.3:
   resolved "https://registry.yarnpkg.com/netlify-plugin-cache/-/netlify-plugin-cache-1.0.3.tgz#f60514e259dff2b3286b6d60b570bb1c81206794"
   integrity sha512-CTOwNWrTOP59T6y6unxQNnp1WX702v2R/faR5peSH94ebrYfyY4zT5IsRcIiHKq57jXeyCrhy0GLuTN8ktzuQg==
 
-njre@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/njre/-/njre-0.2.0.tgz#e5abfbafafb3db4438fe6b149da9a733fab0bf3d"
-  integrity sha512-+Wq8R6VmjK+jI8a9NdzfU6Vh50r3tjsdvl5KJE1OyHeH8I/nx5Ptm12qpO3qNUbstXuZfBDgDL0qQZw9JyjhMw==
-  dependencies:
-    command-exists-promise "^2.0.2"
-    node-fetch "^2.5.0"
-    tar "^4.4.8"
-    yauzl "^2.10.0"
-
 no-case@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-3.0.4.tgz#d361fd5c9800f558551a8369fc0dcd4662b6124d"
@@ -10822,7 +10815,7 @@ node-emoji@^1.10.0:
   dependencies:
     lodash "^4.17.21"
 
-node-fetch@2.6.7, node-fetch@^2.5.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
+node-fetch@2.6.7, node-fetch@^2.6.1, node-fetch@^2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
